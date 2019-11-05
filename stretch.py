@@ -62,19 +62,9 @@ max):
                             i = int(offset) - i
                     # stop iterating if max length reached
                     if len(temp) >= max:
-                        i = int(end)
-                        k = int(bufsize)
-                        j = int(factor)
-                        print(f"i {i}. j {j}. k {k} max {max}. int(end) {int(end)}, len(temp {len(temp)})", end='\r')
-                        print("reached max!", end='\r')
                         break
                 # stop iterating if max length reached
                 if len(temp) >= max:
-                    i = int(end)
-                    k = int(bufsize)
-                    j = int(factor)
-                    print(f"i {i}. j {j}. k {k} max {max}. int(end) {int(end)}, len(temp {len(temp)})", end='\r')
-                    print("reached max!", end='\r')
                     break
 
         # iterate with no loop buffer
@@ -96,10 +86,6 @@ max):
                         i = int(offset) - i
                 # break when max reached
                 if len(temp) >= max:
-                    i = int(end)
-                    j = int(factor)
-                    print("lentemp after max reached", len(temp))
-                    print("reached max!")
                     break
 
         print("stretch: done processing")
@@ -113,8 +99,6 @@ max):
         processed = (np.asarray(temp, dtype="int16"))
     except:
         print("stretch: couldn't write buffer to numpy")
-    print(len(processed))
-    print(type(processed))
     return (processed, infs)
 
     # close and del buffers

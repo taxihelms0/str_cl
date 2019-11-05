@@ -36,6 +36,8 @@ def yesorno_query(param, message):
             param = 'saving'
         if 'play' in param:
             param = 'playing'
+        if 'preview' in param:
+            param = 'previewing'
 
         # check for and process 'y' or 'n' response
         try:
@@ -67,9 +69,11 @@ while True:
     # open wavs directory and list files
     files = os.listdir("./wavs/")
     print("listing wav files in distribution...", end="\n\n")
+    time.sleep(0.02)
     for i in range(len(files)):
         if '.wav' in files[i] or '.WAV' in files[i]:
             print(files[i])
+            time.sleep(0.02)
     print(end="\n")
 
     # user input to select and load wav file
@@ -285,6 +289,6 @@ while True:
         # write_buffer empty, try again
         print("Error: write_buffer is empty")
         print("Try again with different parameters\nrestarting stretch...")
-        time.sleep(0.5)
+        time.sleep(0.5) # little pause for visual effect
     print("restarting")
-    time.sleep(0.5)
+    time.sleep(0.5)     # little pause for visual effect
