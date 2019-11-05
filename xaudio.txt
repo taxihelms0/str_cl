@@ -1,0 +1,20 @@
+
+   xx    xxxxxxxxxxx  xxxxx
+ xxxxxx  xxxxxxxxxxx  xxxxxxx
+xxx  xxx     xxx      xxx  xxx
+xxx  xxx     xxx      xxx   xxx
+ xxx         xxx      xxx  xxx
+   xxx       xxx      xxxxxxxx
+    xxx      xxx      xxxxxxx
+xxx  xxx     xxx      xxx  xxx
+xxx  xxx     xxx      xxx   xxx
+ xxxxxx      xxx      xxx   xxx
+   xx        xxx      xxx   xxx
+
+STR V 0.1
+by Alex Ian Smith 2019
+alexiansmith.com
+
+Audio functions for manipulating '.wav' files
+
+To quit, type 'q' or 'quit' at any text prompt.
