@@ -1,20 +1,19 @@
 
-   xx    xxxxxxxxxxx  xxxxx
- xxxxxx  xxxxxxxxxxx  xxxxxxx
-xxx  xxx     xxx      xxx  xxx
-xxx  xxx     xxx      xxx   xxx
- xxx         xxx      xxx  xxx
-   xxx       xxx      xxxxxxxx
-    xxx      xxx      xxxxxxx
-xxx  xxx     xxx      xxx  xxx
-xxx  xxx     xxx      xxx   xxx
- xxxxxx      xxx      xxx   xxx
-   xx        xxx      xxx   xxx
+ ______________     ________________    _______________
+________________    ________________    ________________
+______    ______    ________________    ______    ______
+______                   ______         ______    ______
+ ______________          ______         _______________
+          ______         ______         _______________
+______    ______         ______         ______    ______
+________________         ______         ______    ______
+ ______________          ______         ______    ______
 
-STR V 0.1
-by Alex Ian Smith 2019
-alexiansmith.com
+STR V 0.1 - by Alex Ian Smith 2019 - alexiansmith.com
 
-Audio functions for manipulating '.wav' files
+A command line script for altering the time domain of .wav
+files.
 
-To quit, type 'q' or 'quit' at any text prompt.
+You can use the following commands at any text prompt:
+  - Quit Program: 'x', 'exit', 'q', 'quit'
+  - View Readme:  'readme', 'man'
